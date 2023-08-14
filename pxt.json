@@ -1,0 +1,33 @@
+{
+    "name": "Clock",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.34",
+        "tag": "v1.12.34",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/10af8104f5448a04960f46207b98c1823fbe6300",
+        "target": "1.12.34",
+        "pxt": "8.5.46",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
